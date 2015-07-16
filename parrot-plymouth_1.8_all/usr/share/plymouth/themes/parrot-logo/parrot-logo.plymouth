@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Parrot Theme
+Description=Parrot Security OS Theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/parrot-logo
+ScriptFile=/usr/share/plymouth/themes/parrot-logo/mdv.script

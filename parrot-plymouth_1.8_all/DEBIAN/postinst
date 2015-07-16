@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+if [ -e /usr/sbin/update-initramfs ]; then
+  if [ -e /boot/initrd.img* ]; then
+  	update-initramfs -u -k all
+  fi
+fi
+
+if [ -e /usr/sbin/update-grub ]; then
+  if [ -e /boot/grub/grub.cfg ]; then
+  	update-grub
+  fi
+fi

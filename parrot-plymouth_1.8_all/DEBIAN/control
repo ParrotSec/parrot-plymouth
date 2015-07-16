@@ -1,0 +1,12 @@
+Package: parrot-plymouth
+Version: 1.8
+Architecture: all
+Maintainer: Lorenzo EclipseSpark Faletra <eclipse@frozenbox.org>
+Installed-Size: 996
+Depends: plymouth
+Recomended: v86d, plymouth-drm
+Replaces: plymouth
+Section: parrot
+Priority: optional
+Description: Parrot Plymouth Themes
+ Parrot Plymouth booting animation themes
