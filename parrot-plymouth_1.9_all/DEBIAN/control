@@ -1,10 +1,10 @@
 Package: parrot-plymouth
-Version: 1.8
+Version: 1.9
 Architecture: all
 Maintainer: Lorenzo EclipseSpark Faletra <eclipse@frozenbox.org>
 Installed-Size: 996
 Depends: plymouth
-Recomended: v86d, plymouth-drm
+Recomended: v86d, plymouth-drm, plymouth-themes
 Replaces: plymouth
 Section: parrot
 Priority: optional
